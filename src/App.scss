@@ -1,0 +1,42 @@
+:root {
+  --color-primary: #0064eb;
+  --color-primary-dark: #0c448d;
+  --color-secondary: #000000;
+  --color-grey-light: #e5e5e5;
+  --color-grey-dark: #808080;
+}
+
+* {
+  &,
+  &::before,
+  &::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+  }
+}
+
+html {
+  font-size: 10px;
+
+  @media screen and (max-width: 1300px) {
+    font-size: 9.5px;
+  }
+
+  @media screen and (max-width: 862px) {
+    font-size: 9px;
+  }
+
+  @media screen and (max-width: 576px) {
+    font-size: 8.5px;
+  }
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.6;
+  background-color: var(--color-grey-light);
+}

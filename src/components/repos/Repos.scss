@@ -1,0 +1,23 @@
+.repos {
+  margin-left: 9.6rem;
+  width: 100%;
+
+  @media screen and (max-width: 1300px) {
+    margin-left: 3rem;
+  }
+
+  @media screen and (max-width: 862px) {
+    margin: 4rem 0 0 0;
+  }
+
+  &__amount {
+    margin-bottom: 2.9rem;
+    font-size: 3.2rem;
+    font-weight: 600;
+    line-height: 4.2rem;
+
+    @media screen and (max-width: 862px) {
+      margin-bottom: 2rem;
+    }
+  }
+}

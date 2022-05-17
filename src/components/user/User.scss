@@ -1,0 +1,26 @@
+.spinner-wrapper {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user {
+  padding: 2.8rem 5.7rem;
+  display: flex;
+
+  @media screen and (max-width: 1300px) {
+    padding: 2rem 4rem;
+  }
+
+  @media screen and (max-width: 862px) {
+    padding: 1.5rem 2.8rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  @media screen and (max-width: 576px) {
+    padding: 0.8rem 1.5rem;
+  }
+}

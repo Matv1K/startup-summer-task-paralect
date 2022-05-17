@@ -1,0 +1,40 @@
+.search-form {
+  width: 50rem;
+  height: 4rem;
+  position: relative;
+
+  @media screen and (max-width: 862px) {
+    width: 40rem;
+    height: 3.5rem;
+  }
+
+  &__input {
+    border-radius: 0.6rem;
+    outline: none;
+    margin-left: 2.202rem;
+    font-size: 1.4rem;
+    padding-left: 4rem;
+    color: var(--color-black);
+    width: 100%;
+    height: 100%;
+
+    &::-webkit-search-cancel-button {
+      margin-right: 2rem;
+      font-size: 1.6rem;
+      cursor: pointer;
+    }
+  }
+
+  &__icon {
+    position: absolute;
+    height: 1.4rem;
+    width: 1.4rem;
+    color: var(--color-grey-dark);
+    left: 3.6rem;
+    top: 1.3rem;
+
+    @media screen and (max-width: 862px) {
+      top: 1rem;
+    }
+  }
+}

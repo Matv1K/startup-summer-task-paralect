@@ -26,7 +26,7 @@ const Pagination = ({ publicRepos, setCurrentPage }) => {
         breakLabel="..."
         pageCount={Math.ceil(publicRepos / 4)}
         marginPagesDisplayed="1"
-        pageRangeDisplayed={3}
+        pageRangeDisplayed="3"
         containerClassName="pagination__menu"
         pageClassName="pagination__page"
         activeClassName="pagination__page_active"

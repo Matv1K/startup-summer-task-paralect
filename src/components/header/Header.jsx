@@ -7,7 +7,7 @@ import "./Header.scss";
 const Header = ({ setSearch }) => {
   return (
     <header className="header">
-      <Logo className="logo" />
+      <Logo />
       <Search setSearch={setSearch} />
     </header>
   );

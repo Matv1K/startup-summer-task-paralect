@@ -11,7 +11,7 @@ const Search = ({ setSearch }) => {
     setValue(event.target.value);
   };
 
-  const handleSubmit = async (event) => {
+  const handleSubmit = (event) => {
     event.preventDefault();
 
     setSearch(value);
